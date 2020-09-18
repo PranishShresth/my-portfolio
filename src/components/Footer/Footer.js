@@ -7,7 +7,7 @@ function Footer() {
     <section className="footer-container clearfix">
       <footer className="footer">
         <div className="footer-contact">
-          <h3>Pranish Shrestha. All rights reserved.</h3>
+          <h4>Pranish Shrestha. All rights reserved.</h4>
         </div>
       </footer>
     </section>

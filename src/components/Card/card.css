@@ -56,6 +56,17 @@
 .modal-content {
   padding: 20px;
 }
+.technology_skills {
+  list-style-type: none;
+}
+.project_links a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.project_links a > * {
+  margin: 2px;
+}
 
 @media screen and (max-width: 599px) {
   .rodal-dialog {

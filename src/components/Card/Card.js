@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { GitHub, Language } from "@material-ui/icons";
+import { GitHub, Visibility } from "@material-ui/icons";
 import { Grid } from "@material-ui/core";
 import Rodal from "rodal";
 import "rodal/lib/rodal.css";
@@ -7,7 +7,7 @@ import "rodal/lib/rodal.css";
 import "./card.css";
 
 function Card(props) {
-  const { name, img } = props;
+  const { name, img, overview, technology, github, website } = props;
   const [visible, setVisible] = useState(false);
   return (
     <>
@@ -40,30 +40,41 @@ function Card(props) {
         className="rodal-container"
       >
         <div className="modal-container">
-          <div className="header">My project: {name}</div>
+          <div className="header">{name}</div>
           <div className="modal-content">
-            <h2>Overview</h2>
-            <p>
-              LEARN academy is a full-stack web development bootcamp in San
-              Diego, CA. The website required optimization in terms of speed and
-              organic search engine rankings.
-            </p>
-            <h2 style={{ paddingTop: 10 }}>Technology Used</h2>
-            <Grid container spacing={1}>
-              <Grid item md={6}>
+            <div className="project-overview">
+              <h4 style={{ color: "#86c232" }}>Overview</h4>
+              <p>{overview}</p>
+            </div>
+
+            <Grid container spacing={1} style={{ paddingTop: 30 }}>
+              {/* <Grid item md={6}>
                 <div className="skill">
                   <span>Javascript</span>
                 </div>
+              </Grid> */}
+              <Grid item md={6}>
+                <h4 style={{ paddingTop: 10, color: "#86c232" }}>
+                  Technology Used
+                </h4>
+                <ul className="technology_skills">
+                  {technology &&
+                    technology.split(",").map((tech) => {
+                      return <li>{tech}</li>;
+                    })}
+                </ul>
               </Grid>
+
               <Grid item md={6} direction="column">
-                <div className="project_links">
-                  <a href="https://www.google.com/">
-                    <GitHub /> View source code
+                <div className="project_links" style={{ paddingTop: 10 }}>
+                  <a href={github}>
+                    <GitHub /> <p>View source code</p>
                   </a>
                 </div>
                 <div className="project_links">
-                  <a href="https://www.google.com/">
-                    <Language /> View website
+                  <a href={website}>
+                    <Visibility />
+                    <p>View website</p>
                   </a>
                 </div>
               </Grid>

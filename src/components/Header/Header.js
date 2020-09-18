@@ -18,7 +18,9 @@ const Header = () => {
     <>
       <nav className="nav-container">
         <div className="logo">
-          <Link to="/">SHRESTHA</Link>
+          <a href to="/">
+            SHRESTHA
+          </a>
         </div>
         <div className="hamburger" onClick={handleHamburger} ref={hamburger}>
           <MenuIcon onClick={handleHamburger} />

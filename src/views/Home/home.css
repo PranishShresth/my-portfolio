@@ -25,6 +25,7 @@ header {
   font-weight: 700;
   font-size: 16px;
   word-wrap: wrap;
+  text-align: center;
 }
 .tag {
   position: absolute;
