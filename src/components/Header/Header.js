@@ -45,8 +45,8 @@ const Header = () => {
 
             <li>
               <a
-                href="/pdf/Resume.pdf"
-                target="_blank"
+                href="pdf/Resume.pdf"
+                download="resume"
                 style={{ display: "flex", alignItems: "center" }}
               >
                 Resume <GetAppIcon fontSize="small" />
