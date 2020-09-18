@@ -7,7 +7,7 @@ header {
   background-color: #37474f !important;
   min-height: 100% !important;
   height: auto;
-  background: url("./../../images/moon.jpg") no-repeat;
+  background: url("./../../images/background.jpg") no-repeat;
   background-size: cover;
   background-position: center center;
 }
@@ -21,7 +21,7 @@ header {
 }
 
 .tag h5 {
-  color: #fff;
+  color: #86c232;
   font-weight: 700;
   font-size: 16px;
   word-wrap: wrap;
@@ -29,7 +29,7 @@ header {
 }
 .tag {
   position: absolute;
-  top: 50;
+  top: 80;
 }
 .sub p {
   color: #6b6e70;
