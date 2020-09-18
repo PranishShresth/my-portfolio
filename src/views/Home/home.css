@@ -7,7 +7,7 @@ header {
   background-color: #37474f !important;
   min-height: 100% !important;
   height: auto;
-  background: url("./../../images/background.jpg") no-repeat;
+  background: url("./../../images/backgroundv2.jpg") no-repeat;
   background-size: cover;
   background-position: center center;
 }
@@ -32,6 +32,6 @@ header {
   top: 80;
 }
 .sub p {
-  color: #6b6e70;
+  color: #86c232;
   font-weight: 600;
 }
