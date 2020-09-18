@@ -59,21 +59,17 @@ const Header = () => {
             <Close onClick={handleHamburger} />
           </div>
           <li>
-            <a href="#projects" className="nav_link" onClick={handleHamburger}>
+            <a href="#projects" onClick={handleHamburger}>
               Projects
             </a>
           </li>
           <li>
-            <a href="#about_me" className="nav_link" onClick={handleHamburger}>
+            <a href="#about_me" onClick={handleHamburger}>
               About
             </a>
           </li>
           <li>
-            <a
-              href="#skills_container"
-              className="nav_link"
-              onClick={handleHamburger}
-            >
+            <a href="#skills_container" onClick={handleHamburger}>
               Skills
             </a>
           </li>

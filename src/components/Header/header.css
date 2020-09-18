@@ -41,6 +41,26 @@
   width: 100%;
 } */
 
+.nav-items li {
+  margin: 2rem;
+}
+
+.nav-items li::after {
+  content: "";
+  display: block;
+  padding: 1px;
+
+  width: 0px;
+  height: 0px;
+  transition: all 0.5s ease;
+}
+
+.nav-items li:hover::after {
+  background-color: #61892f;
+  width: 100%;
+  height: 2px;
+}
+
 .nav .nav-items li a {
   text-decoration: none;
   color: white;
