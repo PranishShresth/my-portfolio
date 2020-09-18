@@ -23,11 +23,22 @@ function About() {
             </div>
 
             <h4 style={{ paddingTop: "30px", color: "#6b6e70" }}>
-              Hi! I am an aspiring Web Devloper.I am interested in both
-              front-end and back-end side of the website. I also like to dabble
-              into various new web technologies and keep my skills updated to
-              match the current industry. I bring passion and enthuciasm to
-              everything I do and has insatiable thirst for knowledge.
+              Hi! I am an aspiring Web Developer.I am interested in both
+              front-end and back-end web development. I also like to dabble into
+              various new web technologies and keep my skills updated to match
+              the current industry. I bring passion and enthuciasm to everything
+              I do and has insatiable thirst for knowledge.
+            </h4>
+            <h4 style={{ paddingTop: "30px", color: "#6b6e70" }}>
+              I am in my final semester of my Bachelor in Information Technology
+              and will be graduating by coming November. I am also a part of
+              Australian Computer Society (ACS) and participate regularly in
+              webinars/seminars for networking and learning what's going on in
+              the industry.
+            </h4>
+            <h4 style={{ paddingTop: "30px", color: "#6b6e70" }}>
+              When I am not building websites, I go on a walk with my cousins. I
+              love reading novels, particulary Eastern Fantasy novels.
             </h4>
           </div>
           <div className="social-links-left">

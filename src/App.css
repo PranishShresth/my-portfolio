@@ -99,6 +99,10 @@ a {
   color: #86c232;
   text-align: center;
 }
+
+.active {
+  color: #86c232;
+}
 .section-heading {
   padding: 40px 0;
 }

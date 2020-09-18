@@ -40,12 +40,7 @@
   margin: 5px;
 }
 
-@media only screen and (max-width: 1100px) {
-  .about-content {
-    flex-direction: column;
-  }
-}
-@media only screen and (max-width: 724px) {
+@media only screen and (max-width: 799px) {
   .social-links-left {
     align-self: flex-start;
     padding-top: 20px;
@@ -53,6 +48,7 @@
   .about-3d,
   .about-content {
     margin: 2rem 0;
+    flex-direction: column;
   }
   .about-3d img {
     width: 250px;

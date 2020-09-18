@@ -59,13 +59,13 @@ function Card(props) {
                 </h4>
                 <ul className="technology_skills">
                   {technology &&
-                    technology.split(",").map((tech) => {
-                      return <li>{tech}</li>;
+                    technology.split(",").map((tech, i) => {
+                      return <li key={i}>{tech}</li>;
                     })}
                 </ul>
               </Grid>
 
-              <Grid item md={6} direction="column">
+              <Grid item md={6}>
                 <div className="project_links" style={{ paddingTop: 10 }}>
                   <a href={github}>
                     <GitHub /> <p>View source code</p>

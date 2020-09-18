@@ -28,14 +28,21 @@ const Header = () => {
         <nav className="nav">
           <ul className="nav-items">
             <li>
-              <a href="#projects">Projects</a>
+              <a href="#projects" className="nav_link">
+                Projects
+              </a>
             </li>
             <li>
-              <a href="#about_me">About Me</a>
+              <a href="#skills_container" className="nav_link">
+                Skills
+              </a>
             </li>
             <li>
-              <a href="#skills_container">Skills</a>
+              <a href="#about_me" className="nav_link last">
+                About Me
+              </a>
             </li>
+
             <li>
               <a
                 href="/pdf/Resume.pdf"
