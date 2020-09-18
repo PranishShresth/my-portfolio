@@ -36,7 +36,7 @@ function onScroll(event) {
     var currLink = $(this);
     var refElement = $(currLink.attr("href"));
     if (
-      refElement.position().top <= scrollPos &&
+      refElement.position().top + 30 <= scrollPos &&
       refElement.position().top + refElement.height() > scrollPos
     ) {
       $(".nav_link").removeClass("active");
