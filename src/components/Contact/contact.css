@@ -1,0 +1,15 @@
+#contact {
+  position: absolute;
+  top: 50;
+  right: 0;
+  z-index: 3;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-links a:hover {
+  color: #86c232;
+}

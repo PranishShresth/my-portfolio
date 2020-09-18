@@ -1,0 +1,132 @@
+.side-nav {
+  display: none;
+}
+
+.logo a {
+  color: #86c232;
+  font-weight: 700;
+}
+.nav-container {
+  z-index: 99;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  background-color: #222629;
+  /* top: 0; */
+  width: 100%;
+  color: white;
+  border-bottom: 2px solid #61892f;
+}
+
+.nav .nav-items {
+  list-style: none;
+  display: flex;
+}
+
+.nav .nav-items li {
+  margin: 0 30px;
+}
+
+/* .nav .nav-items li::after {
+  content: "";
+  padding: 2px;
+  display: block;
+  transition: width 0.5s ease;
+  width: 0px;
+}
+
+.nav .nav-items li:hover::after {
+  background-color: #61892f;
+  height: 2px;
+  width: 100%;
+} */
+
+.nav .nav-items li a {
+  text-decoration: none;
+  color: white;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.tagline h1 {
+  font-weight: 300;
+  line-height: 2em;
+}
+
+@media only screen and (max-width: 720px) {
+  #menuToggle {
+    display: block;
+  }
+  .nav-container {
+    margin: 0;
+    justify-content: space-between;
+  }
+  .nav {
+    display: none;
+  }
+
+  .hamburgerMenu {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+  }
+  .side-nav {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    right: 0;
+    top: 0;
+    margin: 0;
+    transform: translateX(100%);
+    height: calc(100% + 60px);
+    transition: transform 0.5s ease-in-out;
+    padding-bottom: 60px;
+    background-color: #222629;
+    z-index: 999;
+    overflow-y: auto;
+    will-change: transform;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    list-style: none;
+  }
+
+  .side-nav li {
+    margin: 2rem;
+  }
+
+  .side-nav li::after {
+    content: "";
+    display: block;
+    padding: 1px;
+
+    width: 0px;
+    height: 0px;
+    transition: all 0.5s ease;
+  }
+
+  .side-nav li:hover::after {
+    background-color: #61892f;
+    width: 100%;
+    height: 2px;
+  }
+
+  .side-nav li a {
+    text-decoration: none;
+
+    color: #fff;
+  }
+  .side-nav.toggle {
+    transform: translateX(0px);
+  }
+  .hamburger {
+    display: block;
+  }
+}

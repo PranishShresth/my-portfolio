@@ -1,0 +1,22 @@
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-rows: minmax(200px, auto);
+  gap: 3px;
+}
+
+.project-container {
+  padding: 2vh 11.805%;
+  height: auto !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .projects {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: minmax(150px, auto);
+    gap: 20px;
+  }
+  .hrBorder {
+    width: 280px;
+  }
+}

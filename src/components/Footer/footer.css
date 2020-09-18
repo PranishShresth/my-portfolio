@@ -1,0 +1,20 @@
+.footer-container {
+  clear: both;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer-contact {
+  display: flex;
+  justify-content: center;
+}
+.footer-contact a {
+  margin: 0 10px;
+}
+.footer-contact a:hover {
+  color: #86c232;
+}

@@ -1,0 +1,22 @@
+#skills_container {
+  padding: 2vh 11.805%;
+  height: auto !important;
+}
+
+.skill img {
+  height: 96px;
+  width: 96px;
+}
+
+.skill {
+  background-color: #86c232;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  transition: background-color 500ms ease-in;
+}
+
+.skill:hover {
+  background-color: #6b6e70;
+}

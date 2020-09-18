@@ -1,0 +1,36 @@
+header {
+  position: relative;
+  top: 0;
+  transition: background-color 0.3s, opacity 0.2s, visibility 0s;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  background-color: #37474f !important;
+  min-height: 100% !important;
+  height: auto;
+  background: url("./../../images/moon.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.tagline {
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tag h5 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  word-wrap: wrap;
+}
+.tag {
+  position: absolute;
+  top: 50;
+}
+.sub p {
+  color: #6b6e70;
+  font-weight: 600;
+}
