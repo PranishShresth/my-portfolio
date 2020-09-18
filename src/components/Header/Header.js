@@ -1,6 +1,5 @@
 import React, { useRef, useState, useEffect } from "react";
 import "./header.css";
-import { NavLink, Link } from "react-router-dom";
 import MenuIcon from "@material-ui/icons/Menu";
 import GetAppIcon from "@material-ui/icons/GetApp";
 import { Close } from "@material-ui/icons";

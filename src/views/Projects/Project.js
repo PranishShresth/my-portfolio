@@ -26,7 +26,7 @@ function Project() {
           <Grid item md={4} sm={6} xs={12}>
             <Card
               name="Trello Clone"
-              img="/img/Trello.png"
+              img="/img/Trello.PNG"
               overview="Trello Clone is full stack Web application. We can create cards and list as well as drag and drop down"
               technology="React, MongoDB , Node JS, ExpressJS , Redux , Redux Saga"
               github="https://github.com/PranishShresth/Trello-Clone"
@@ -36,7 +36,7 @@ function Project() {
           <Grid item md={4} sm={6} xs={12}>
             <Card
               name="Order Management System"
-              img="/img/oms.png"
+              img="/img/oms.PNG"
               overview="Order Management System (OMS) is a full stack web application. It was created as university project and according to company Lightosphere requirement. It has integrations like gmail and paypal"
               technology="Eloquent javascript(EJS), MongoDB , Node JS, ExpressJS, ChartJS"
               github="https://github.com/PranishShresth/Order-Management-System"
@@ -46,7 +46,7 @@ function Project() {
           <Grid item md={4} sm={6} xs={12}>
             <Card
               name="Covid-Tracker"
-              img="/img/covid-app.png"
+              img="/img/covid-app.PNG"
               overview="Covid tracker is a React project built along with Material UI ChartsJS. It provides a dashboard for covid cases based on many criterias"
               technology="React, Material UI, ChartJS"
               github="https://github.com/PranishShresth/Covid-App"
@@ -56,7 +56,7 @@ function Project() {
           <Grid item md={4} sm={6} xs={12}>
             <Card
               name="Trivia App"
-              img="/img/trivia.png"
+              img="/img/trivia.PNG"
               overview="Trivia App is React Application that creates a quizzes based on user preference. It uses OpenTDB API for fetching all questions and answer"
               technology="React, Material UI"
               github="https://github.com/PranishShresth/Trivia-App"
@@ -66,7 +66,7 @@ function Project() {
           <Grid item md={4} sm={6} xs={12}>
             <Card
               name="Flip Game"
-              img="/img/flip-game.png"
+              img="/img/flip-game.PNG"
               overview="Flip game is simple javascript game where you match two similar cards and get points."
               technology="HTML, CSS , Javascript"
               github="https://github.com/PranishShresth/flip-game"
